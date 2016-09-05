@@ -7,17 +7,18 @@
 	<title>Admin</title>
 	<link rel="shortcut icon" href="./favicon.ico">
     <!-- <link rel="bookmark" href="./favicon.ico"/> -->
-	<link rel="stylesheet" href="assets/bootstrap-3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/custome/css/index.css">
+	<link rel="stylesheet" href="src/assets/bootstrap-3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="src/assets/custome/css/index.css">
 </head>
 <body>
 	<div id="app">
 	</div>
 </body>
 </html>
-<script src="assets/jquery/jquery-1.11.min.js"></script>
+<script src="src/assets/jquery/jquery-1.11.min.js"></script>
 <script src="dist/app.js"></script>
 <script>
+$(function(){
 	$(".menu").hover(function(e){
 		$(this).find("ul").stop(true, false).slideDown();
 		$(this).siblings().find("ul").stop(true, false).slideUp();
@@ -36,6 +37,5 @@
 	$(".l-wrap.min").on("hover", function (e) {
 		e.preventDefault();
 	});
-
-	
+});
 </script>

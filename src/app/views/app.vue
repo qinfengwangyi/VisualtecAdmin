@@ -2,7 +2,7 @@
 <div class="main">
 		<!--top-->
 		<div class="top-wrap clearfix">
-			<div class="logo">Google后台管理中心</div>
+			<div class="logo-wrap"><a href="javascript:;" class="logo"></a>Google后台管理中心</div>
 			<div class="operation clearfix">
 				<ul>
 					<li class="operat"><a class="a-show" href="javascript:;">消息</a></li>
@@ -39,7 +39,6 @@
 							<ul>
 								<li class="menu-item"><a class="item-title" href="javascript:;">二级菜单</a></li>
 								<li class="menu-item"><a class="item-title" href="javascript:;">二级菜单</a></li>
-								<li class="menu-item"><a class="item-title" href="javascript:;">二级菜单</a></li>
 							</ul>
 						</li>
 						<li class="menu">
@@ -53,7 +52,6 @@
 						<li class="menu">
 							<a class="menu-title" href="javascript:;">系统管理</a>
 							<ul>
-								<li class="menu-item"><a class="item-title" href="javascript:;">二级菜单</a></li>
 								<li class="menu-item"><a class="item-title" href="javascript:;">二级菜单</a></li>
 								<li class="menu-item"><a class="item-title" href="javascript:;">二级菜单</a></li>
 							</ul>
