@@ -61,9 +61,9 @@
 				<div class="right">
 					<div class="r-wrap">
 						<div class="nav-wrap">
-							<a href="#">首页</a>
-							<a href="#">当前模块</a>
-							<a href="#">当前页1</a>
+							<a class="nav-link" href="#">首页</a>
+							<a class="nav-link" href="#">当前模块</a>
+							<a class="nav-link" href="#">当前页1</a>
 						</div>
 						<div class="main-content-wrap">
 							<div class="main-content">

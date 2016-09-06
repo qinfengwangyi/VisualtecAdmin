@@ -61,7 +61,7 @@ html,body{
 }
 .operation .operat .a-show{
 	display: block;
-	font-size: 0.7rem;
+	font-size: 0.6rem;
 	text-align: center;
 	transition: all 0.3s;
 	color: #ffffff;
@@ -69,7 +69,7 @@ html,body{
 }
 .operation .operat .a-hidden{
 	display: none;
-	font-size: 0.7rem;
+	font-size: 0.6rem;
 	text-align: center;
 	transition: all 0.3s;
 	background-color: #eeeeee;
@@ -116,7 +116,7 @@ html,body{
     // transition: all 0.8s;
     vertical-align: middle;
     line-height: 1.5rem;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
 }
 .left.min{
 	width: 2rem;
@@ -141,7 +141,7 @@ html,body{
 .menu .menu-title{
 	display:block;
 	padding-left:2rem;
-	font-size:0.8rem;
+	font-size:0.7rem;
 	color:#ffffff;
 	border-top: 0.05rem solid #aaaaaa;
 	transition:all 0.3s ease-in-out;
@@ -155,7 +155,7 @@ html,body{
 }
 .item-title{
 	display:block;
-	font-size: 0.7rem;
+	font-size: 0.6rem;
     padding-left: 3rem;
 	color:#ffffff;
     transition: all 0.3s ease-in-out;
@@ -178,7 +178,10 @@ html,body{
 	width: 100%;
 	background-color: #e2e2e2;
     line-height: 1.5rem;
-    font-size: 0.7rem;
+}
+.nav-link{
+    font-size: 0.6rem;
+	color: #999999;
 }
 .main-content-wrap{
 	padding: 1rem;
